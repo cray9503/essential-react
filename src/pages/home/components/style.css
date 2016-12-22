@@ -1,0 +1,184 @@
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.one {
+-webkit-animation-delay: 0.5s;
+-moz-animation-delay: 0.5s;
+animation-delay: 0.5s;
+}
+
+.four {
+-webkit-animation-delay: 1.8s;
+-moz-animation-delay: 1.8s;
+animation-delay: 1.8s;
+}
+
+.five {
+-webkit-animation-delay: 2s;
+-moz-animation-delay: 2s;
+animation-delay: 2s;
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+ }
+@-webkit-keyframes fadeInDown {
+0% {
+	opacity: 0;
+	-webkit-transform: translate3d(0, 20%, 0);
+	transform: translate3d(0, 20%, 0);
+}
+100% {
+	opacity: 1;
+	-webkit-transform: none;
+	transform: none;
+}
+}
+@keyframes fadeInDown {
+0% {
+	opacity: 0;
+	-webkit-transform: translate3d(0, 20%, 0);
+	transform: translate3d(0, 20%, 0);
+}
+100% {
+	opacity: 1;
+	-webkit-transform: none;
+	transform: none;
+}
+}
+
+/*=== FADE IN  ===*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+.mainHeader {
+  margin-top: 30px;
+  height: 80px;
+  z-index: 4;
+}
+
+.logo {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background-image: url("./name-logo.png");
+  background-size: contain;
+}
+
+.navList {
+  width: 260px;
+  margin: 0 auto;
+  overflow: hidden;
+  float: right;
+  height: 100%;
+}
+
+ul {
+  margin: auto;
+  list-style: none;
+  padding: 0;
+  float: right;
+}
+
+li {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.workT {
+  margin: 0;
+  font-size: 20px;
+  color: #787878;
+  transition: .2s;
+  padding-bottom: 5px;
+}
+
+.workH {
+  display: inline-block;
+  margin: 0;
+  font-size: 24px;
+  color: black;
+  width: 40%;
+  transition: .2s;
+}
+
+.btmHeader {
+  display: inline-block;
+  margin: 0;
+  font-size: 24px;
+  color: black;
+  width: 40%;
+  transition: .2s;
+}
+
+.workContainer {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-bottom: solid 1px #D7D7D7;
+}
+.workTContainer {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  border-bottom: solid 1px #D7D7D7;
+}
+
+.projects:hover h3 {
+  color: #D6D6D6;
+  transition: .2s;
+}
+
+.workContainer:hover .workH {
+  color: black;
+  transition: .2s;
+}
+.workContainer:hover .workDesc {
+  color: black;
+  transition: .2s;
+
+}
+.workContainer:hover .btmHeader {
+  color: black;
+  transition: .2s;
+}
+
+.workDesc {
+  width: 60%;
+  float: right;
+  margin: 0;
+  padding-top: 8px;
+  font-size: 13px;
+  color: #787878;
+  transition: .2s;
+}
