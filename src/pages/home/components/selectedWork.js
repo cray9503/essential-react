@@ -18,14 +18,14 @@ export default class SelectedWork extends React.Component {
               <h3 className={styles.workH}>Trello Clone</h3>
               <h3 className={styles.workDesc}>Full Stack Developer</h3>
             </div></Link> */}
-            <a href="http://www.hackathon.io/dono1" target="_blank"><div className={styles.workContainer}>
-              <h3 className={styles.workH}>Dono</h3>
-              <h3 className={styles.workDesc}>Designer/Product Development</h3>
-            </div></a>
             <a href="http://www.ziing.me" target="_blank"><div className={styles.workContainer}>
               <h3 className={styles.workH}>Ziing</h3>
               <h3 className={styles.workDesc}>Freelance Website Build/Design</h3>
             </div></a>
+            {/* <a href="http://www.hackathon.io/dono1" target="_blank"><div className={styles.workContainer}>
+              <h3 className={styles.workH}>Dono</h3>
+              <h3 className={styles.workDesc}>Designer/Product Development</h3>
+            </div></a> */}
             <a href="https://github.com/assunta09/PartnerClient" target="_blank"><div className={styles.workContainer}>
               <h3 className={styles.workH}>The Partner</h3>
               <h3 className={styles.workDesc}>Front-End Developer</h3>
