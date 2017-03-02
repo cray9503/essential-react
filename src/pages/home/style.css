@@ -26,14 +26,8 @@
   margin: 0;
 }
 
-.selectedWork {
-  position: absolute;
-  top: 700px;
-  height: 600px;
-  width: 75%;
-}
-
 .workT {
+
   margin: 0;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -99,6 +93,12 @@
   font-size: 13px;
   color: #787878;
   transition: .2s;
+}
+
+@media (max-width: 650px) {
+  .mainBody h1 {
+    font-size: 45px;
+  }
 }
 
 a:link {

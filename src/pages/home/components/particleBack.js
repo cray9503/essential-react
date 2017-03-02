@@ -9,7 +9,7 @@ export default class ParticleBack extends React.Component {
   render() {
 
     return (
-      <div className={cx(styles.four, styles.animate, styles.fadeIn)}>
+      <div className={cx(styles.particleBack, styles.four, styles.animate, styles.fadeIn)}>
         <Particles params={{
           "particles": {
             "number": {

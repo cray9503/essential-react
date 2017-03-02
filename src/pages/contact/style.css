@@ -10,7 +10,6 @@
 .titleContainer {
   position: absolute;
   top: 260px;
-  width: 40%;
   padding-bottom: 20px;
   border-bottom: solid 1px #D7D7D7;
   z-index: 2;
@@ -34,6 +33,19 @@
   letter-spacing: 3px;
   padding: 0;
   margin: 0;
+}
+
+@media (max-width: 650px) {
+  .mainBody h1 {
+    font-size: 45px;
+  }
+  .contactContainer h3 {
+    font-size: 12px;
+    padding-right: 14px;
+  }
+  .contactContainer {
+    top: 415px;
+  }
 }
 
 .two {

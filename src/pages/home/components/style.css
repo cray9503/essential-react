@@ -139,6 +139,13 @@ li {
   transition: .2s;
 }
 
+.selectedWork {
+  top: 675px;
+  position: absolute;
+  height: 600px;
+  width: 75%;
+}
+
 .workContainer {
   width: 100%;
   display: inline-block;
@@ -181,4 +188,26 @@ li {
   font-size: 13px;
   color: #787878;
   transition: .2s;
+}
+
+.particleBack {
+  display: block;
+}
+
+@media (max-width: 650px) {
+  .workH {
+    font-size: 16px;
+  }
+  .btmHeader {
+    font-size: 16px;
+  }
+  .workDesc {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .particleBack div {
+    opacity: 0;
+  }
 }
