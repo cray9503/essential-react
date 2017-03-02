@@ -18,7 +18,7 @@ export default class SelectedWork extends React.Component {
               <h3 className={styles.workH}>Trello Clone</h3>
               <h3 className={styles.workDesc}>Full Stack Developer</h3>
             </div></Link> */}
-            <a href="http://www.ziing.me" target="_blank"><div className={styles.workContainer}>
+            <a href="ziing.me" target="_blank"><div className={styles.workContainer}>
               <h3 className={styles.workH}>Ziing</h3>
               <h3 className={styles.workDesc}>Freelance Website Build/Design</h3>
             </div></a>
